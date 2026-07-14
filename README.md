@@ -17,12 +17,15 @@ Usage of ./goconntrack:
   -targets string
     	Comma-separated target IPs or subnets
 ```
+**One Subnet**
 ```bash
 ./goconntrack --targets 172.26.0.0/14
 ```
+**One IP**
 ```bash
 ./goconntrack --targets 1.1.1.1
 ```
+**subnet and IP mixed**
 ```bash
 ./goconntrack --targets 9.9.9.9,1.1.1.1,172.16.0.0/16.10.0.0.0/8
 ```
